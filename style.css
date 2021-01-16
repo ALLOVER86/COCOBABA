@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 24px;
+}
+
+.header {
+    background-color: rgb(158,157,157);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+   
+}
+
+.header h1 {
+    background-image: url(img/Poitiers2.jpg);
+    background-size: cover;
+    margin: 20px;
+    height: 350px;
+}
+
+h1 {
+    color:rgb(185, 62, 62);
+    font-family: 'Times New Roman';
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    padding-top: 270px; 
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: rgb(158,157,157);
+    padding: 3px;
+}
+
+.header-nav a {
+    color: rgba(230, 63, 63, 0.6);
+    padding-top: 2px; padding-right: 20px; padding-bottom: 3px;
+    font-size: 40px;
+}
+.header-nav a:hover {
+    color: rgba(230, 63, 63, 1);
+}
+
+.création {
+    background-color: rgb(194, 192, 192);
+    margin-top: 0px; margin-bottom: 0px; margin-right: 0px;
+    padding: 20px;
+}
+
+.main {
+    display:flex;
+    flex-wrap: nowrap;
+    color: rgb(73, 72, 72);
+    background-color: rgb(194, 192, 192);
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+       
+}
+
+.footer {
+    display: flex;
+    background-image: url("img/Poitiers.jpg");
+    height: 350px;
+    padding-left: 20px;
+}
+
+footer p:nth-child(2) {
+    color: rgb(124, 15, 15);
+    margin-left: 75px;
+    margin-top: 10px;
+
+}
+
+h2 {
+    color:rgb(230, 63, 63);
+    background-image: url("img/Poitiers.jpg");
+    height: 500px;
+    font-size: 60px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    margin-top: 0px; 
+}
+
+.actual {
+    box-shadow: 0 0 30px rgb(230, 63, 63);
+}
+
+.main {
+    box-shadow: 0 0 30px black;
+}
+
+h2 a {
+    color:rgba(82, 80, 80, 0.6);
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+h2 a:hover {
+    color:rgba(82, 80, 80, 1)
+}
+
+.liens {
+    background-color: rgba(255,255,255,0.7);
+}
+.Bureau {
+    display: flex;
+    flex-direction: column;
+}
+
+.Bureau a {
+    text-decoration: double;
+    color: rgba(255,255,255,0.9);
+    padding-top: 2px; padding-right: 20px; padding-bottom: 3px;
+}
+.Bureau a:hover {
+    color: rgba(255,255,255,1);
+    text-decoration: underline;
+}
+
